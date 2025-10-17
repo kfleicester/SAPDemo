@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1760695370.0370679,
+  "testlocationdata" : [
+    {
+      "name" : "logos\/SAPMObile.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "AndroidSL",
+      "connectionportnum" : 56944,
+      "connectiontype" : "Saucelabs",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[64,30]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "127.0.0.1",
+      "capturerect" : [
+        46,
+        282,
+        150,
+        81
+      ]
+    }
+  ],
+  "createddate" : 1760695370.0370669,
+  "lastfoundlocation" : [
+    46,
+    282,
+    150,
+    81
+  ],
+  "originalcapturelocation" : [
+    46,
+    282,
+    150,
+    81
+  ],
+  "lastfounddate" : 1760696670.395566,
+  "name" : "logos\/SAPMObile"
+}

@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1760690687.105231,
+  "testlocationdata" : [
+    {
+      "name" : "logos\/SAP.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "win11RDP",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[19,4]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "10.211.55.3",
+      "capturerect" : [
+        16,
+        99,
+        48,
+        24
+      ]
+    }
+  ],
+  "createddate" : 1760690687.105231,
+  "lastfoundlocation" : [
+    16,
+    99,
+    48,
+    24
+  ],
+  "originalcapturelocation" : [
+    16,
+    99,
+    48,
+    24
+  ],
+  "lastfounddate" : 1760696650.661736,
+  "name" : "logos\/SAP"
+}

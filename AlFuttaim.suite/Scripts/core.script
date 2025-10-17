@@ -1,0 +1,58 @@
+﻿
+
+to launchURL inpBrowser, inpURL
+	typetext windowskey, "r"
+	
+	typetext inpBrowser&&inpURL, returnKey
+	
+	wait 2
+	
+	waitfor 20, "Logos"
+	
+	fullscreenToggle
+	
+	
+	
+end launchURL
+
+to launchMobileURL inpURL
+	core.navigate "Search Google"
+	
+	typetext inpURL, returnkey
+	wait 1
+	waitfor 20, "Logos"
+	
+end launchMobileURL
+
+
+
+to scrollto toFind
+
+	Repeat until ImageFound(text:toFind, waitFor:0, ignorespaces:on, ignorenewlines:on)
+		ScrollWheelDown 8
+		wait 2
+		
+	End repeat
+	
+	return FoundImageInfo().imagerectangle
+	
+end scrollto
+
+
+to navigate action, validation
+
+	click the center of scrollTo(action)
+	wait 1
+	if validation is not empty
+		waitfor 20, text:validation
+	end if
+	
+end navigate
+
+
+to fullscreenToggle
+
+	typetext F11
+	wait 1
+	
+end fullscreenToggle

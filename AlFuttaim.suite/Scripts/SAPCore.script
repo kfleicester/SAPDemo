@@ -1,0 +1,43 @@
+﻿
+
+
+to login username, password
+
+	click text:"User"
+	typetext username, tabkey
+	typehiddentext password
+	
+	typetext returnkey
+	wait 1
+	
+	if ImageFound(text:"Change your password", waitFor:1)
+		try
+			click text:"OK", waitfor:0
+		catch
+			click text:"OK", contrast:"On", contrastColor:"#0A55D6", contrastTolerance:"45", waitfor:0
+		end try
+	end if
+	
+	waitfor 20, text:"Change Management"
+	
+end login
+
+
+//making assumption the ticket name starts with 'Ticket'
+to getTicketName 
+	set the searchrectangle to config.getRectangles("namearea")
+	// find Ticket
+	set ticketRect to ImageRectangle(text:"Ticket", waitFor:0)
+	set ticketName to ReadText(ticketRect.centerright + [100,0])
+	set the searchrectangle to []
+	return ticketName
+	
+end getTicketName
+
+
+to searchSAP searchFor
+	click "icons/search"
+	wait 1
+	typetext searchFor, returnkey
+	wait 1
+end searchSAP

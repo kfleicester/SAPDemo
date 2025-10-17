@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2025-10-17 10:02:41 +0000";
+    CaptureHost = "AndroidSL";
+    CaptureScreenSize = (
+        1080,
+        2340);
+    HasAlpha = 1;
+    HotSpotX = 64;
+    HotSpotY = 30;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 46;
+    OriginalLocationY = 282;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "logos/SAPMObile";
+    tags = ();
+}

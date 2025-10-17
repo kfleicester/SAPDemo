@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1760695527.591419,
+  "testlocationdata" : [
+    {
+      "name" : "icons\/search\/searchmobile.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "AndroidSL",
+      "connectionportnum" : 56944,
+      "connectiontype" : "Saucelabs",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[26,33]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "127.0.0.1",
+      "capturerect" : [
+        814,
+        286,
+        62,
+        61
+      ]
+    }
+  ],
+  "createddate" : 1760695527.591418,
+  "lastfoundlocation" : [
+    814,
+    286,
+    62,
+    61
+  ],
+  "originalcapturelocation" : [
+    814,
+    286,
+    62,
+    61
+  ],
+  "lastfounddate" : 1760696681.129843,
+  "name" : "icons\/search\/searchmobile"
+}

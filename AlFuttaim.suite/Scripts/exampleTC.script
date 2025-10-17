@@ -1,0 +1,41 @@
+﻿(* 
+INITIALISE TEST DATA
+
+ENSURE SAME URL
+2 DIFFERENT USERS WITH DIFFERENT PERMISSIONS
+ *)
+
+set SAPURL to "https://solman.almdemo.com/sap/bc/ui2/flp"
+
+set user1 to "DASILVAPE"
+set user2 to "MOOREDON"
+
+
+---------------------------------------------------------------------------------------------
+//// launch SAP on windows
+core.launchURL "chrome", SAPURL
+//login 
+SAPcore.login user1, "Solman72"
+//navigate to incidents
+core.navigate "My Incidents", "Ticket IT"
+//find the Very High priority incident
+core.navigate "Very High"
+//read and store the ticket number
+set ticketName to SAPCore.getTicketName
+log "The ticket name found is:"&&ticketname
+
+
+
+---------------------------------------------------------------------------------------------
+/// move to mobile
+connect "AndroidSL"
+waitfor 20, text:"Google" -- to validate connection
+//launch SAP on Mobile
+core.launchMobileURL SAPURL
+//login with new user
+SAPcore.login user2, "Solman72"
+//search for ticket using the stored ticket name
+SAPcore.searchSAP ticketName
+//validate this user cannot see the ticket
+assert that ImageFound(text:"We did not find any matches", ignorespaces:on, ignorenewlines:on)
+

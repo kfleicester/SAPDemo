@@ -1,0 +1,49 @@
+{
+  "lastmodifieddate" : 1760695498.601485,
+  "ocrcapturestring" : ",o",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.211.55.3",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "win11RDP",
+      "connectionportnum" : 3389,
+      "deleted" : true,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : ",o",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[28,27]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "chrome.png",
+      "capturerect" : [
+        11,
+        203,
+        56,
+        55
+      ]
+    }
+  ],
+  "createddate" : 1760618013.9632459,
+  "lastfoundlocation" : [
+    11,
+    203,
+    56,
+    55
+  ],
+  "originalcapturelocation" : [
+    11,
+    203,
+    56,
+    55
+  ],
+  "lastfounddate" : 1760618106.104831,
+  "name" : "chrome"
+}

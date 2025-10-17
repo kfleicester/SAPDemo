@@ -1,0 +1,15 @@
+﻿
+
+
+
+
+to getRectangles inpRectangle
+
+
+
+	set rectangleList to {namearea:[490,82,1451,262],
+	}
+	
+	return rectangleList.(inpRectangle)
+	
+end getRectangles

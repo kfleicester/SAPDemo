@@ -1,0 +1,49 @@
+﻿// IDE 
+
+-- Green - comment 
+
+/// Mouse 
+
+DoubleClick "chrome"
+
+Click text:"Search Google"
+
+RightClick "chrome"
+
+//// keyboard
+
+TypeText "Hello world"
+
+
+TypeText "123^&^*&"
+
+
+TypeText returnKey
+
+
+TypeText windowsKey
+
+
+TypeText controlKey, "v"
+
+
+typetext altkey, tabkey
+
+
+to loginFunction username, password
+
+	click text:"Username"
+	typetext username
+	
+	click text:"Password"
+	typetext password
+	
+	click text:"Login"
+	
+end loginFunction
+
+
+
+
+
+
