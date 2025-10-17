@@ -23,6 +23,8 @@ core.navigate "Very High"
 //read and store the ticket number
 set ticketName to SAPCore.getTicketName
 log "The ticket name found is:"&&ticketname
+CaptureScreen {Name: "Ticket"}
+
 
 
 
@@ -38,4 +40,4 @@ SAPcore.login user2, "Solman72"
 SAPcore.searchSAP ticketName
 //validate this user cannot see the ticket
 assert that ImageFound(text:"We did not find any matches", ignorespaces:on, ignorenewlines:on)
-
+CaptureScreen {Name: "MobileSearch"}
