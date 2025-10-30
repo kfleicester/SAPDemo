@@ -7,7 +7,7 @@ ENSURE SAME URL
 
 set SAPURL to "https://solman.almdemo.com/sap/bc/ui2/flp"
 
-set user1 to "DASILVAPE"
+set user1 to "DUPONTI"
 set user2 to "MOOREDON"
 
 
