@@ -4,7 +4,7 @@ INITIALISE TEST DATA
 ENSURE SAME URL
 2 DIFFERENT USERS WITH DIFFERENT PERMISSIONS
  *)
-
+//dumyupdate
 set SAPURL to "https://solman.almdemo.com/sap/bc/ui2/flp"
 
 set user1 to "DUPONTI"
