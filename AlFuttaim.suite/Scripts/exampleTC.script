@@ -10,6 +10,14 @@ set SAPURL to "https://solman.almdemo.com/sap/bc/ui2/flp"
 set user1 to "DUPONTI"
 set user2 to "MOOREDON"
 
+///// connect to SUTS
+connect  "AndroidSL"
+wait 5
+wait until ConnectionInfo().status = "Connected"
+connect "Win11RDP"
+wait 5
+waitfor 30, "logos/windows"
+wait 2
 
 ---------------------------------------------------------------------------------------------
 //// launch SAP on windows
